@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="compte-a-rebour.js" type="text/javascript"></script>
+    <script src="diaporama.js" type="text/javascript"></script>
+
+    <title>Accueil</title>
+</head>
+
+<!-- page accueil festival -->
+
+<body>
+
+    <header>
+
+        <nav>
+            <!-- menu -->
+
+            <ul>
+                <!-- catégories -->
+                <li><a href="index.html"><img src="Header/Logosocialmedia/Logo.svg" alt=""></a></li>
+                <a href="nos-artistes.html"><li>Nos Artistes</li></a>
+                 <a href="informations-pratiques.html"><li>Informations Pratique</li></a>
+                <li>Partenaires</li>
+                <li>Replay</li>
+
+
+                <!-- logo -->
+
+                <div class="reseaux-menu">
+                    <!-- réseaux sociaux -->
+                    <img src="Header/Logosocialmedia/Facebook.png" alt="logo">
+                    <img src="Header/Logosocialmedia/Twitter.png" alt="logo">
+                    <img src="Header/Logosocialmedia/Insta.png" alt="logo">
+                    <img src="Header/Logosocialmedia/TikTok.png" alt="logo">
+                </div>
+                <p>DE</p>
+            </ul>
+        </nav>
+
+
+        <!-- titres -->
+
+        <section class="titres">
+            <h1>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                mes dames et messieurs
+            </h1>
+            <h1>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                FESTIVAL’A VA COMMENCER
+            </h1>
+            <h1>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                ACCROCHEZ VOS CEINTURES
+            </h1>
+<!-- 
+            <div>
+                <h1 class="MESDAMES-ET-MESSIEURS">MESDAMES ET MESSIEURS</h1>
+
+                <h1 class="FESTIVALA-VA-COMMENCER">FESTIVAL'A VA COMMENCER</h1>
+
+                <h1 class="ACCROCHEZ-VOS-CEINTURES">ACCROCHEZ VOS CEINTURES</h1>
+            </div> -->
+
+        </section>
+
+
+        <!-- section fond ondes vecteurs  -->
+
+
+
+    </header>
+
+    <section class="ondes-vecteurs">
+
+
+
+
+    </section>
+
+
+    <!-- section compte a rebours -->
+
+    <section class="compte-a-rebour">
+        <div>
+            <h2>IL RESTE </h2>
+            <ul>
+                <li><span id="days"></span>JOURS</li>
+                <li><span id="hours"></span>HEURES</li>
+                <li><span id="minutes"></span>MINUTES</li>
+                <li><span id="seconds"></span>SECONDES</li>
+            </ul>
+        </div>
+
+    </section>
+
+
+    <!-- section  nos artistes -->
+
+
+    <section class="nos-artistes">
+
+        <div class="titres-nos-artistes">
+            <h2>NOS ARTISTES</h2>
+            <h3>Découvrez notre programme</h3>
+        </div>
+
+
+
+        <!-- <div class="wraper">
+    <div class="container">
+      <div class="slider"></div>
+    </div>
+    <div class="dot"></div>
+    <button class="navigator navigator1" id="0">
+      <i class="fa fa-angle-left"></i>
+    </button>
+    <button class="navigator navigator2" id="1">
+      <i class="fa fa-angle-right"></i>
+    </button>
+  </div>
+ -->
+
+
+
+
+        <div class="carousel-container">
+            <div class="carousel-box">
+                <div class="carousel">
+                    <img src="Page-artiste/Dom-Ferrer/dom-ferrer.jpg" title="Mojo-Sapiens" alt="Foto-1" />
+
+                </div>
+            </div>
+
+            <div class="carousel-box">
+                <div class="carousel">
+                    <img src="Page-artiste/Mojo-Sapiens/mojo-sapiens.jpg" alt="foto-2" />
+
+                </div>
+            </div>
+
+            <div class="carousel-box">
+                <div class="carousel">
+                    <img src="Page-artiste/Thomas-schoeffler/thomas-schoeffler.png" alt="Foto-3" />
+
+
+                    <button class="btn btn--left" onclick="plusSlides(-1)">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="btn-icon" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+                        </svg>
+                    </button>
+
+
+                    <button class="btn btn--right" onclick="plusSlides(1)">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="btn-icon" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                        </svg>
+                    </button>
+
+
+                </div>
+            </div>
+
+
+            <!-- boutons caroussel -->
+
+            <button class="btn btn--left" onclick="plusSlides(-1)">
+                <svg xmlns="http://www.w3.org/2000/svg" class="btn-icon" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+                </svg>
+            </button>
+
+            <button class="btn btn--right" onclick="plusSlides(1)">
+                <svg xmlns="http://www.w3.org/2000/svg" class="btn-icon" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                </svg>
+            </button>
+
+
+            <!-- <div class="dots">
+      <span class="dot dot--fill" onclick="currentSlide(1)"></span>
+      <span class="dot dot--fill" onclick="currentSlide(2)"></span>
+      <span class="dot dot--fill" onclick="currentSlide(3)"></span>
+    </div> -->
+
+        </div>
+
+
+    </section>
+
+    <section class="entree-gratuit">
+
+        <h2>Entrée gratuite</h2>
+
+    </section>
+
+
+    <section class="footer">
+
+        <div class="logo-partenaires"> 
+
+            <img src="Logo-partenaires/Logospartenaires/Alsace-logo.png" alt="">
+            <img src="Logo-partenaires/Logospartenaires/Logo-grand-est.png" alt="">
+            <img src="Logo-partenaires/Logospartenaires/little-sister.png" alt="">
+            <img src="Logo-partenaires/Logospartenaires/Logo-Quetsch.png" alt="">
+
+            <!-- </div> -->
+
+            <!-- <div class="Informations-footer">   -->
+            <h4>Nos artistes</h4>
+
+            <div class="infos">
+                <h4>Informations pratiques</h4>
+                <p>Horaires<br>
+                    Adresse <br>
+                    Restaurants<br>
+                    Safer<br>
+                    Personnes handicapés <br>
+                    Parking</p>
+
+            </div>
+
+            <div class="partenaires">
+                <h4>Partenaires</h4>
+                <p>Un mot du président <br>
+                    Nos mécènes</p>
+            </div>
+
+            <div class="replay">
+                <h4>replay</h4>
+            </div>
+
+
+
+        </div>
+
+            <div>
+              
+
+                <div class="wrapper">
+                    <h3>Restez informé avec notre newsletter !</h3>
+                    <div class="box">
+                        <form
+                            action="https://yahoo.us20.list-manage.com/subscribe/post?u=a150d3a45c82b1d27115de341&amp;id=56b2deada5"
+                            method="get" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
+                            class="validate">
+                            <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL"
+                                placeholder="Adresse e-mail" required>
+                            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                                <input type="text" name="b_e44c1f194bec93e238615469e_f6f826e769" tabindex="-1" value="">
+                            </div>
+                            <input type="submit" value="S’inscrire" name="subscribe" id="mc-embedded-subscribe"
+                                class="mc-button">
+                            <div id="subscribe-result">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="barre-footer"></div>
+
+            <div class="mentions-legales">
+                <p>Mentions légales</p>
+                <p>confidentialité</p>
+                <p>Crédits photos</p>
+            </div>
+    </section>
+
+
+
+
+
+
+
+    <!-- code js diaporama -->
+
+
+
+
+    <script>
+        var slidePosition = 1;
+        SlideShow(slidePosition);
+
+        // forward/Back controls
+        function plusSlides(n) {
+            SlideShow((slidePosition += n));
+        }
+
+        //  images controls
+        function currentSlide(n) {
+            SlideShow((slidePosition = n));
+        }
+
+        function SlideShow(n) {
+            var i;
+            var slides = document.getElementsByClassName("carousel-box");
+            var circles = document.getElementsByClassName("dot");
+            if (n > slides.length) {
+                slidePosition = 1;
+            }
+            if (n < 1) {
+                slidePosition = slides.length;
+            }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < circles.length; i++) {
+                circles[i].className = circles[i].className.replace(" dot--fill", "");
+            }
+            slides[slidePosition - 1].style.display = "block";
+            circles[slidePosition - 1].className += " dot--fill";
+        }
+
+    </script>
+
+
+</body>
+
+</html>
